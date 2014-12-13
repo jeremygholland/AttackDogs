@@ -1,0 +1,19 @@
+button{background-color:orange;
+        color: #666629;
+      height:100%;}
+    .red{background-color:#0099FF;}
+  .top div {background-color:black;
+        color:#666629;
+        height:50%;
+        width:100%;
+        text-align:center;
+        margin-bottom:1%;}
+
+  p {color:#666629;
+    font-family: times;
+    font-size:20px;}
+
+  img{height:100%;
+      width:100%;}
+
+.border img{background-repeat: repeat;}
