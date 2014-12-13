@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Dog Attack!!!</title>
+        <link rel="stylesheet" type="text/css" href="css/jQuerydogs.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="author" href="humans.txt">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/jquerydogs.js"></script>
+        <script src = "js/javascript.js"></script>
+    </head>
+    <body>
+    	<div class="container">
+    		<div class="row">
+		<div class="top">
+    	 <div class="col-md-4">
+    	 </div>
+    	 <div class="col-md-4">
+    	 	<h1> This is a game about dogs. Angry, snarling dogs. Unfortunately, you have been thrown into this mix. Sorry bro.</h1>
+
+    	 </div>
+    	 <div class="col-md-4">
+            </div>
+    	 	<div class="left">
+    	 		
+    	 	</div>
+    	 </div>
+         <div class="col-md-4"> 
+            <div class="border">
+                <img src="http://kcen.images.worldnow.com/images/23411805_BG1.jpg" />
+                </div>
+         </div>
+
+    			<div class="col-md-4">
+ 		<button class="start">
+        <h1>
+        "Click here to play!!"
+    	</h1>
+        </button>
+        <div class="form">
+           <p>What's your name?</p> <input type="text" id="test" value="">     
+        <button class = "form">         
+          submit
+            </button>
+                    
+        </div>
+        <div class="phase2">            
+            <button id = "fight">
+                <p> Do you choose to fight?</p>
+            </button>
+            <button id="run">
+            <p> Do you choose to run?</p>
+            </button>
+            <button id ="help">
+                <p>Do you choose to call for help?</p>
+            </button>
+            <img src="http://cdn.attackofthecute.com/October-02-2011-16-36-54-6960052263b468f830do.jpeg" />
+        </div>
+        <div class="fight">
+            <p>
+                Ok, you are going to fight dogs. Snarling dogs. Do you think you're strong enough to fight off dogs? 
+            </p>
+            <button id = "fightOne">
+               <p> Yes, now shut up and bring'em on!</p>
+            </button>
+            <button id = "fightTwo">
+                <p>Well... i dunno about this.. </p>
+            </button>
+        </div>
+        <div class="fightWinner">
+            <p>
+                Your combination of speed and power, like a young Earl Campbel, was too much to overcome. You smacked smashed the dogs' heads together like coconuts. Listen closley... the WWE is calling, and it looks like you're next in line for the belt.
+            </p>
+        </div>
+        <div class="fightNowinner">
+            <p>
+                You, confidently, chose to fight the dogs. And you even found a little bit of success! You knocked out a couple of the dogs. Unfortunately, the dogs that are still fighting are even more pissed off. Do you want to keep fighting, or instead do you want to run?
+            </p>
+            <button id="noWinner1">
+               <p> I'm going to keep fighting. I've made it thus far. Pissed off dogs be damned. </p>
+            </button>
+            <button id="noWinner2">
+                <p>I'm starting to think running is a pretty good idea...</p>
+            </button>
+        </div>
+        <div id="fight2winner">
+            <p>
+                Well, they ripped through your pants, and some skin. But you killed them. You'll recover and live to fight another day. 
+            </p>
+        </div>
+        <div id="fight2Nowinner">
+                <p>
+                    You made the wrong decision. The pissed off remaining dogs had a taste for blood. They ate you. bummer.
+                </p>
+  </div>
+        <div id="fightNo">
+                <p>
+                    If you aren't both strong and fast, why would you choose to fight multiple rabid dogs? They ate you.
+                </p>
+        </div>
+            <div class="run">
+                <p>
+                    Are you fast? This is an angry pack of dogs keen on attacking you. Do you think you can out run them?
+                </p>
+                <button id = "runOne">
+                  <p>  Hell yes! Usain Bolt ain't got shit on me, brah. </p>
+                </button>
+                <button id = "runTwo">
+                    <p>Not... particularly fast, no.</p>
+                </button>
+            </div>
+        <div class="runYes">
+          <p>  You have started sprinting from the snarling dogs. You can feel the slobber from their snapping jaws splash on your heels. Luckily, there is a fence across the street. You're going to try to climb it. Let's see how this goes...</p>
+        <button class="runContinued">
+           <p> Well get on with it, bro. </p>
+        </button>
+        </div>
+        <div class="runYay">
+        <p>You made it over the fence. You're safe, but your pride isn't quite as intact.</p>
+        </div>
+        <div class="runBoo">
+            <p>You made it near the top of the fence when a dog bites your heel and starts ripping. As you feel tendons start to fray, you lose your grip on the fence. While falling to your doom, you wish that you had put on your PF Flyers this morning.</p>
+        </div>
+        <div class="runFail">
+           <p> Why did you choose to run if your aren't fast? That's... just not wise. The dogs ate you, as is fit for a cowardly idiot.</p>
+        </div>
+        <div class="help">
+            <p>So you've chosen to ask for help. You're at the cross roads of a cathedral, a comic book shop, and a junkyard. Which direction do you scream at for help?</p>
+            <button id="helpOne">
+              <p> I'm going to call out to the cathedral for help!</p>
+            </button>
+            <button id="help2">
+               <p> I'm gonna go out to the comic book shop. Help me, Marvel!</p>
+            </button>
+            <button id="help3">
+                <p>I'm betting on the oft-heralded honor of junkyard operators!</p>
+            </button>
+        </div>
+        <div class="church">
+           <p> You drop to your knees and pray to God. The dogs, in reverence to your faith, do not attack you. Instead, they attack the politician who has just confessed to vote tampering leaving the church. The good lord is just.</p>
+        </div>
+        <div id="comic1">
+           <p> You call out to the comic book shop and Spiderman runs out. That's right, Spiderman. Everybody gets 1, right? Spiderman quickly dispatches the dogs, swings you by an ice cream shop and then takes you home. Pretty nice afternoon, actually.</p>
+        </div>
+        <div id="comic2">
+           <p> You call out to the comic book shop and Spiderman runs out. Actually... this Spiderman is kinda pudgy. And his suit doesn't fit quite right. He attempts to save you, but is quickly dispatched by the dogs. As tear him to shreds, leaving only his asthma enhaler, you realize that this comic book nerd clearly could not help you. Bless him for trying. The dogs eat you</p>
+        </div>
+        <div id="comic3">
+           <p> You call out to the comic book shop and the owner comes running out. He sees what is going on and quickly calls the police. When the police arrive, the comic book owner's cowardice only costs you several weeks in the hospital, but you'll live a long, painful life.<p>
+        </div>
+        <div class="junkYard">
+            <p>Of course, the dogs originated from the junkyard. As such, your cries fall on deaf ears, but your remains are disposed of so that no one may ever find out what happened to you. Bummer.</p>
+        </div>
+        <div class="win">
+            <h1>Congratulations!!!</h1>
+            <img src="http://i.imgur.com/bTxKS2P.gif"/>
+        </div>
+        <div class="lose">
+            <h1> Sorry bro. Try again!!!</h1>
+            <img src="http://www.doseoffunny.com/wp-content/uploads/2014/04/Sq5VFjp.gif"/>
+        </div>
+        <div class="lame">
+            <h1>Well, that kinda sucks... Try again!</h1>
+            <img src="http://img3.wikia.nocookie.net/__cb20140829000321/my-weird-school/images/9/9d/Lame.gif"/>
+        </div>
+        </div>
+        <div class="col-md-4">
+            <div class="border">
+                <img src="http://kcen.images.worldnow.com/images/23411805_BG1.jpg"/>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    </body>
+</html>
